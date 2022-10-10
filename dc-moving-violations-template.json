@@ -1,0 +1,39 @@
+{
+  "template" : "dc-moving-violations-*",
+  "mappings" : {
+    "properties" : { 
+      "geopoint": { "type": "geo_point" },
+      "TICKET_NUMBER": { "type": "text" },
+      "VIOLATION_TYPE_DESC": { "type": "text" },
+      "ISSUE_TIME": { "type": "text" },
+      "ISSUING_AGENCY_CODE": { "type": "keyword" },
+      "ISSUING_AGENCY_NAME": { "type": "keyword" },
+      "ISSUING_AGENCY_SHORT": { "type": "keyword" },
+      "VIOLATION_CODE": { "type": "keyword" },
+      "VIOLATION_PROCESS_DESC": { "type": "text" },
+      "LOCATION": { "type": "text" },
+      "PLATE_STATE": { "type": "keyword" },
+      "ACCIDENT_INDICATOR": { "type": "keyword" },
+      "DISPOSITION_CODE": { "type": "long" },
+      "DISPOSITION_TYPE": { "type": "keyword" },
+      "FINE_AMOUNT": { "type": "double" },
+      "TOTAL_PAID": { "type": "long" },
+      "PENALTY_1": { "type": "long" },
+      "PENALTY_2": { "type": "long" },
+      "PENALTY_3": { "type": "long" },
+      "PENALTY_4": { "type": "long" },
+      "PENALTY_5": { "type": "long" },
+      "RP_MULT_OWNER_NO": { "type": "long" },
+      "BODY_STYLE": { "type": "keyword" },
+      "XCOORD": { "type": "long" },
+      "YCOORD": { "type": "long" },
+      "LATITUDE": { "type": "long" },
+      "LONGITUDE": { "type": "long" },
+      "MAR_ID": { "type": "long" },
+      "DRV_LIC_STATE": { "type": "keyword" },
+      "DOB_YEAR": { "type": "long" },
+      "VEH_YEAR": { "type": "keyword" },
+      "VEH_MAKE": { "type": "keyword" }
+    }
+  }
+}
